@@ -1,0 +1,148 @@
+/* Styles for main page */
+
+#banner {
+  background: #03A;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+  font: small-caps 40px/40px "Times New Roman", serif;  
+  color: #DDE;
+  text-align: center;
+}
+
+#navcontainer ul
+{
+  padding-left: 0;
+  margin-top:0px;
+  margin-left: 0;
+  margin-bottom: 0px;
+  background-color: #036;
+  color: #DDE;
+  float: left;
+  width: 100%;
+  font-family: arial, helvetica, sans-serif;
+}
+
+#navcontainer ul li  
+{
+  display: inline;
+}
+
+#navcontainer ul li a
+{
+  padding: 0.2em 1em;
+  background-color: #036;
+  color: #DDE;
+  text-decoration: none;
+  float: left;
+  border-right: 1px solid #fff;
+}
+
+#navcontainer ul li a:hover
+{
+  background-color: #369;
+  color: #fff;
+}
+
+#right
+{
+ float: right; 
+ margin: 3px;
+}
+
+#main
+{ 
+  background: white; 
+  margin-left: 0;
+  padding: 1ex;
+  padding-top: 5ex;  
+}
+
+#notice {
+border: 2px solid blue;
+padding: 1em;
+margin-bottom: 2em;
+background-color: #f0f0f0 ;
+font: bold smaller sans-serif;
+}
+
+/* end styles for main */
+
+/* Styles for order form */
+
+.musicdb-form fieldset {
+  background: #DDE;
+}
+
+.musicdb-form legend {
+  color: #DDE;
+  background: #036;
+  font-family: sans-serif;
+  padding: 0.2em 1em;
+}
+
+.musicdb-form label {
+  width: 5em;
+  float: left;
+  text-align: right;
+  padding-top: 0.2em;
+  margin-right: 0.1em;
+  display: block;
+}
+
+.musicdb-form select, .musicdb-form textarea, .musicdb-form input {
+  margin-left: 0.5em;
+}
+
+.musicdb-form .submit {
+  margin-left: 4em;
+}
+
+.musicdb-form div {
+  margin: 0.5em 0;
+}
+/* END:form */
+
+/* The error box */
+
+.fieldWithErrors {
+  padding: 2px;  
+  display: inline;
+}
+
+.fieldWithErrors * {
+  background-color: red;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#errorExplanation ul li {
+  font-size: 14px;
+  list-style: square;
+}
+/* END:error box */
+
+
